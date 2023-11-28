@@ -1,0 +1,153 @@
+Method	Description
+animate()	Runs a custom animation on the selected elements
+clearQueue()	Removes all remaining queued functions from the selected elements
+delay()	Sets a delay for all queued functions on the selected elements
+dequeue()	Removes the next function from the queue, and then executes the function
+fadeIn()	Fades in the selected elements
+fadeOut()	Fades out the selected elements
+fadeTo()	Fades in/out the selected elements to a given opacity
+fadeToggle()	Toggles between the fadeIn() and fadeOut() methods
+finish()	Stops, removes and completes all queued animations for the selected elements
+hide()	Hides the selected elements
+queue()	Shows the queued functions on the selected elements
+show()	Shows the selected element
+slideDown()	Slides-down (shows) the selected elements
+slideToggle()	Toggles between the slideUp() and slideDown() methods
+slideUp()	Slides-up (hides) the selected elements
+stop()	Stops the currently running animation for the selected elements
+toggle()	Toggles between the hide() and show() methods
+
+Method	Description
+addClass()	Adds one or more class names to selected elements
+after()	Inserts content after selected elements
+append()	Inserts content at the end of selected elements
+appendTo()	Inserts HTML elements at the end of selected elements
+attr()	Sets or returns attributes/values of selected elements
+before()	Inserts content before selected elements
+clone()	Makes a copy of selected elements
+css()	Sets or returns one or more style properties for selected elements
+detach()	Removes selected elements (keeps data and events)
+empty()	Removes all child nodes and content from selected elements
+hasClass()	Checks if any of the selected elements have a specified class name
+height()	Sets or returns the height of selected elements
+html()	Sets or returns the content of selected elements
+innerHeight()	Returns the height of an element (includes padding, but not border)
+innerWidth()	Returns the width of an element (includes padding, but not border)
+insertAfter()	Inserts HTML elements after selected elements
+insertBefore()	Inserts HTML elements before selected elements
+offset()	Sets or returns the offset coordinates for selected elements (relative to the document)
+offsetParent()	Returns the first positioned parent element
+outerHeight()	Returns the height of an element (includes padding and border)
+outerWidth()	Returns the width of an element (includes padding and border)
+position()	Returns the position (relative to the parent element) of an element
+prepend()	Inserts content at the beginning of selected elements
+prependTo()	Inserts HTML elements at the beginning of selected elements
+prop()	Sets or returns properties/values of selected elements
+remove()	Removes the selected elements (including data and events)
+removeAttr()	Removes one or more attributes from selected elements
+removeClass()	Removes one or more classes from selected elements
+removeProp()	Removes a property set by the prop() method
+replaceAll()	Replaces selected elements with new HTML elements
+replaceWith()	Replaces selected elements with new content
+scrollLeft()	Sets or returns the horizontal scrollbar position of selected elements
+scrollTop()	Sets or returns the vertical scrollbar position of selected elements
+text()	Sets or returns the text content of selected elements
+toggleClass()	Toggles between adding/removing one or more classes from selected elements
+unwrap()	Removes the parent element of the selected elements
+val()	Sets or returns the value attribute of the selected elements (for form elements)
+width()	Sets or returns the width of selected elements
+wrap()	Wraps HTML element(s) around each selected element
+wrapAll()	Wraps HTML element(s) around all selected elements
+wrapInner()	Wraps HTML element(s) around the content of each selected element
+
+
+Method	Description
+add()	Adds elements to the set of matched elements
+addBack()	Adds the previous set of elements to the current set
+andSelf()	Deprecated in version 1.8. An alias for addBack()
+children()	Returns all direct children of the selected element
+closest()	Returns the first ancestor of the selected element
+contents()	Returns all direct children of the selected element (including text and comment nodes)
+each()	Executes a function for each matched element
+end()	Ends the most recent filtering operation in the current chain, and return the set of matched elements to its previous state
+eq()	Returns an element with a specific index number of the selected elements
+filter()	Reduce the set of matched elements to those that match the selector or pass the function's test
+find()	Returns descendant elements of the selected element
+first()	Returns the first element of the selected elements
+has()	Returns all elements that have one or more elements inside of them
+is()	Checks the set of matched elements against a selector/element/jQuery object, and return true if at least one of these elements matches the given arguments
+last()	Returns the last element of the selected elements
+map()	Passes each element in the matched set through a function, producing a new jQuery object containing the return values
+next()	Returns the next sibling element of the selected element
+nextAll()	Returns all next sibling elements of the selected element
+nextUntil()	Returns all next sibling elements between two given arguments
+not()	Returns elements that do not match a certain criteria
+offsetParent()	Returns the first positioned parent element
+parent()	Returns the direct parent element of the selected element
+parents()	Returns all ancestor elements of the selected element
+parentsUntil()	Returns all ancestor elements between two given arguments
+prev()	Returns the previous sibling element of the selected element
+prevAll()	Returns all previous sibling elements of the selected element
+prevUntil()	Returns all previous sibling elements between two given arguments
+siblings()	Returns all sibling elements of the selected element
+slice()	Reduces the set of matched elements to a subset specified by a range of indices
+
+Method / Property	Description
+bind()	Deprecated in version 3.0. Use the on() method instead. Attaches event handlers to elements
+blur()	Attaches/Triggers the blur event
+change()	Attaches/Triggers the change event
+click()	Attaches/Triggers the click event
+dblclick()	Attaches/Triggers the double click event
+delegate()	Deprecated in version 3.0. Use the on() method instead. Attaches a handler to current, or future, specified child elements of the matching elements
+die()	Removed in version 1.9. Removes all event handlers added with the live() method
+error()	Removed in version 3.0. Attaches/Triggers the error event
+event.currentTarget	The current DOM element within the event bubbling phase
+event.data	Contains the optional data passed to an event method when the current executing handler is bound
+event.delegateTarget	Returns the element where the currently-called jQuery event handler was attached
+event.isDefaultPrevented()	Returns whether event.preventDefault() was called for the event object
+event.isImmediatePropagationStopped()	Returns whether event.stopImmediatePropagation() was called for the event object
+event.isPropagationStopped()	Returns whether event.stopPropagation() was called for the event object
+event.namespace	Returns the namespace specified when the event was triggered
+event.pageX	Returns the mouse position relative to the left edge of the document
+event.pageY	Returns the mouse position relative to the top edge of the document
+event.preventDefault()	Prevents the default action of the event
+event.relatedTarget	Returns which element being entered or exited on mouse movement
+event.result	Contains the last/previous value returned by an event handler triggered by the specified event
+event.stopImmediatePropagation()	Prevents other event handlers from being called
+event.stopPropagation()	Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event
+event.target	Returns which DOM element triggered the event
+event.timeStamp	Returns the number of milliseconds since January 1, 1970, when the event is triggered
+event.type	Returns which event type was triggered
+event.which	Returns which keyboard key or mouse button was pressed for the event
+focus()	Attaches/Triggers the focus event
+focusin()	Attaches an event handler to the focusin event
+focusout()	Attaches an event handler to the focusout event
+hover()	Attaches two event handlers to the hover event
+keydown()	Attaches/Triggers the keydown event
+keypress()	Attaches/Triggers the keypress event
+keyup()	Attaches/Triggers the keyup event
+live()	Removed in version 1.9. Adds one or more event handlers to current, or future, selected elements
+load()	Removed in version 3.0. Attaches an event handler to the load event
+mousedown()	Attaches/Triggers the mousedown event
+mouseenter()	Attaches/Triggers the mouseenter event
+mouseleave()	Attaches/Triggers the mouseleave event
+mousemove()	Attaches/Triggers the mousemove event
+mouseout()	Attaches/Triggers the mouseout event
+mouseover()	Attaches/Triggers the mouseover event
+mouseup()	Attaches/Triggers the mouseup event
+off()	Removes event handlers attached with the on() method
+on()	Attaches event handlers to elements
+one()	Adds one or more event handlers to selected elements. This handler can only be triggered once per element
+$.proxy()	Takes an existing function and returns a new one with a particular context
+ready()	Specifies a function to execute when the DOM is fully loaded
+resize()	Attaches/Triggers the resize event
+scroll()	Attaches/Triggers the scroll event
+select()	Attaches/Triggers the select event
+submit()	Attaches/Triggers the submit event
+toggle()	Removed in version 1.9. Attaches two or more functions to toggle between for the click event
+trigger()	Triggers all events bound to the selected elements
+triggerHandler()	Triggers all functions bound to a specified event for the selected elements
+unbind()	Deprecated in version 3.0. Use the off() method instead. Removes an added event handler from selected elements
+undelegate()	Deprecated in version 3.0. Use the off() method instead. Removes an event handler to selected elements, now or in the future
+unload()	Removed in version 3.0. Use the on() or trigger() method instead. Attaches an event handler to the unload event
+

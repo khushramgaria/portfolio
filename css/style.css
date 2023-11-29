@@ -562,27 +562,27 @@ padding: 0 30px;
 }
 
 .cp-1::before {
-    background: url(img/html.jpeg);
+    background: url(../img/html.jpeg);
     background-size: cover;
 }
 .cp-2::before {
-    background: url(img/css.jpg);
+    background: url(../img/css.jpg);
     background-size: cover;
 }
 .cp-3::before {
-    background: url(img/js.png);
+    background: url(../img/js.png);
     background-size: cover;
 }
 .cp-4::before {
-    background: url(img/bootstrap.jpeg);
+    background: url(../img/bootstrap.jpeg);
     background-size: cover;
 }
 .cp-5::before {
-    background: url(img/php.jpg);
+    background: url(../img/php.jpg);
     background-size: cover;
 }
 .cp-6::before {
-    background: url(img/c++.jpg);
+    background: url(../img/c++.jpg);
     background-size: cover;
 }
 

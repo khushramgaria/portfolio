@@ -1,0 +1,240 @@
+.icons {
+    padding: 25px;
+}
+
+.icons button {
+    color: #03b3fe;
+    background: #03b3fe39;
+    border: solid 1px #03b3fe;
+    font-size: 25px;
+    padding: 8px 14px;
+    margin: 10px 0;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #03b3fe;
+}
+
+.icons button:hover {
+    color: white;
+    background: #03b3fe;
+    border: solid 1px #03b3fe;
+    font-size: 25px;
+    margin: 10px 0;
+    box-shadow: 0 0 40px 5px #03b3fe;
+}
+
+.icons .icon-title {
+    position: absolute;
+    padding-top: 4px;
+    padding-left: 22px;
+    font-weight: 700;
+    opacity: 0;
+    font-size: 16px;
+    transition: all ease 0.2s;
+}
+
+.icons button:hover .icon-title {
+    opacity: 1;
+    text-decoration: underline;
+    color: #03b3fe;
+}
+
+#home .main {
+    display: flex;
+  }
+
+  #home .content h3 {
+font-weight: 700;
+text-shadow: 10px 10px 10px black;
+color: #ff2c02d0;
+}
+
+#home .content h1 {
+text-shadow: 10px 10px 15px black;
+color: white;
+font-family: impact;
+}
+
+#home .content h5 {
+text-shadow: 10px 10px 15px black;
+color: #03b3fe;
+font-weight: 600;
+}
+
+#home .content p {
+text-shadow: 10px 10px 15px black;
+color: #9c9b9b
+}
+
+/*  jgjvjjj */
+
+#home .button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: #ff2c02d0;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+  }
+
+  #home .button .text {
+    color: #fff;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  #home  .icon {
+    /* width: 1px;
+    height: 24px; */
+    margin: 0 0 0 6px;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #home .button:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+  
+  #home .button:hover .icon {
+    transform: translate(4px);
+  }
+  
+  #home .button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  #home .button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+  
+
+/* #home .content .button {
+padding: 10px 15px;
+color: white;
+background: #ff2c02d0;
+border-radius: 30px;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: 700;
+box-shadow: 5px 5px 7px black;
+border: none;
+transition: all ease .1s;
+}
+
+#home .content .button:hover {
+color: black;
+box-shadow: 7px 7px 10px black;
+} */
+
+#home .content, .img {
+flex-basis: 50%;
+}
+
+#home .content {
+    padding: 0 5rem 0 4rem;
+}
+
+#home .img {
+    padding: 0 5rem 0 4rem;
+}
+
+#home .content {
+width: 100%;
+margin: 0 auto;
+justify-content: center;
+}
+
+#home .img {
+text-align: right;
+}
+
+#home .img img{
+position: relative;
+right: 30%;
+box-shadow: 0 0 60px #03a9f4;
+border-radius: 100%;
+}
+
+#home .hiddenImg {
+    text-align: center;
+}
+
+#home .hiddenImg img {
+    box-shadow: 0 0 60px #03a9f4;
+    border-radius: 100%;
+}
+
+#home .hiddenImg {
+display: none;
+}
+
+@media(max-width:768px) {
+    #home .img {
+        display: none;
+    }
+    #home .hiddenImg {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    #home .content {
+        padding: 0 2rem;
+        margin: 2rem 0;
+    }
+
+    #home .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #home .hiddenImg img {
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+}

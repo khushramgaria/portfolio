@@ -1,0 +1,52 @@
+#menu {
+    z-index: 1000;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+}
+
+.menu .button {
+    background: none;
+    border: none;
+}
+
+.menu .button:hover {
+    transition: all ease 0.2s;
+}
+
+.menu .button .icon {
+    border: none;
+    border: solid 2px #03b3fe;
+    color: #444444;
+    background-color: #03b3fe;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all ease 0.2s;
+}
+
+.menu .button .icon:hover {
+    color: #444444;
+    cursor: pointer;
+}
+
+.menu-btn {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#menu:hover {
+    color: #444444;
+}
+/* hackerfrank */
+
+.menu {
+    padding: 0.5rem 0;
+}

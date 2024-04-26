@@ -208,6 +208,10 @@ display: none;
 }
 
 @media(max-width:768px) {
+  #home .button {
+    margin: 0 auto
+  }
+
     #home .img {
         display: none;
     }

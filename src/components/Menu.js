@@ -24,7 +24,7 @@ const Menu = () => {
 
   return (
     <>
-      <div className="menu-btn wow zoomIn" data-wow-delay="0.1s" id="menu">
+      <div className="menu-btn" id="menu">
         <div className="menu" id="menu burger">
           <Link className="button" onClick={toggleMenu}>
             {icon}

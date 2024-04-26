@@ -8,178 +8,18 @@ body {
     background: url("./img/new-bg.jpg") no-repeat;
     background-size: cover;
 }
-/* :root {
-    --second-color: #03b3fe;
-    --dark-color: hsl(212, 40%, 12%);
-    --white-color: hsl(212, 4%, 95%);
-    --body-color: hsl(212, 42%, 15%);
-    --container-color: hsl(212, 42%, 20%);
-    --body-font: "Bai Jamjuree", sans-serif;
-    --h2-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-  } */
-  
-  .skills-head {
-      text-align:  center;
-      margin: 25px 0 0;
-    }
-    
-  .skills-head h1 {
-      display: inline-block;
-      border: solid 1px #03b3fe;
-      text-align: center;
-      padding: 12px 35px;
-      color: #03b3fe;
-      font-family: impact;
-      text-transform: uppercase;
-      font-weight: 300;
-      box-shadow: 0 0 30px 1px #03b3fe;
-  }
-  
-  .skills-head .span {
-      font-size: 25px;
-      font-family: sans-serif;
-      color: white;
-  }
 
-  #skills .card__article {
-    border: none;
-  }
-  
-  /*=============== CARD ===============*/
-  #skills .swiper-button-prev:after,
-  #skills .swiper-button-next:after {
-    content: "";
-  }
-  
-  #skills .swiper-button-prev,
-  #skills .swiper-button-next {
-    width: initial;
-    height: initial;
-    font-size: 3rem;
-    color: #03b3fe;
-    /* display: none; */
-  }
-
-  #skills .swiper-button-next .icon,
-  #skills .swiper-button-prev .icon {
-    font-size: 2rem;
-  }
-  
-  #skills .swiper-button-prev {
-    margin-left: 1rem;
-    left: 0;
-  }
-  
-  #skills .swiper-button-next {
-    margin-right: 1rem;
-    right: 0;
-  }
-  
-  #skills .swiper-pagination-bullet {
-    background-color: #03b3fe;
-    opacity: 1;
-  }
-  
-  #skills .swiper-pagination-bullet-active {
-    background-color: #03b3fe;
-  }
-  
-
-  #skills .circular-progress {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#skills .circular-progress::before {
-    content: "";
-    position: absolute;
-    height: 270px;
-    width: 270px;
-    border-radius: 50%;
-}
-
-#skills .cp-1 {
-    background: conic-gradient(#e54d26 340deg, #ededed 0deg);
-}
-#skills .cp-2 {
-    background: conic-gradient(#254995 320deg, #ededed 0deg);
-}
-#skills .cp-3 {
-    background: conic-gradient(#e9ca32 200deg, #ededed 0deg);
-}
-#skills .cp-4 {
-    background: conic-gradient(#5b4283 275deg, #ededed 0deg); 
-}
-#skills .cp-5 {
-    background: conic-gradient(#6b7eb8 110deg, #ededed 0deg); 
-}
-#skills .cp-6 {
-    background: conic-gradient(#004483 180deg, #ededed 0deg);
-}
-
-#skills .cp-1::before {
-    background: url(./img/html.jpeg);
-    background-size: cover;
-}
-#skills .cp-2::before {
-    background: url(./img/css.jpg);
-    background-size: cover;
-}
-#skills .cp-3::before {
-    background: url(./img/js.png);
-    background-size: cover;
-}
-#skills .cp-4::before {
-    background: url(./img/bootstrap.jpeg);
-    background-size: cover;
-}
-#skills .cp-5::before {
-    background: url(./img/php.jpg);
-    background-size: cover;
-}
-#skills .cp-6::before {
-    background: url(./img/c++.jpg);
-    background-size: cover;
-}
-    
-  
-  /*=============== BREAKPOINTS ===============*/
-  /* For small devices */
-  @media screen and (max-width: 320px) {
-    #skills .card__data {
-      padding: 1rem;
+  @media(max-width: 320px) {
+    body {
+      background-size: auto;
+      height: 100%;
     }
   }
   
   /* For medium devices */
-  @media screen and (min-width: 768px) {
-    #skills .card__content {
-      margin-inline: 3rem;
-    }
-  
-    #skills .swiper-button-next,
-    #skills .swiper-button-prev {
-      display: block;
-    }
-  }
-  
-  /* For large devices */
-  @media screen and (min-width: 1120px) {
-    #skills .card__container {
-      max-width: 1120px;
-    }
-  
-    #skills .swiper-button-prev {
-      left: -1rem;
-    }
-    #skills .swiper-button-next {
-      right: -1rem;
+  @media (max-width: 768px) {
+    body {
+      background-size: auto;
+      height: 100%;
     }
   }

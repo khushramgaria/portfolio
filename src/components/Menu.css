@@ -50,3 +50,8 @@
 .menu {
     padding: 0.5rem 0;
 }
+@media (max-width: 768px) {
+    #menu {
+        position: fixed;
+    }
+}

@@ -9,6 +9,8 @@ import { motion, useScroll } from 'framer-motion';
 
 function Contact() {
   const [showSuccessMessage, setSuccessMessage] = useState(false)
+  const [loadingMessage, setLoadingMessage] = useState(false)
+  const [errorMessage, setErrorMessage] = useState(false)
 
   const form = useRef();
   const nameRef = useRef();
@@ -17,16 +19,22 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setLoadingMessage(true)
       emailjs
       .sendForm('service_b5j3enu', 'template_vw48w1h', form.current, {
         publicKey: 'L2X8ituZloP8_o9re',
       })
       .then(
         () => {
+          setLoadingMessage(false)
           setSuccessMessage(true)
+          setTimeout(() => {
+            setSuccessMessage(false)
+          }, 2500)
         },
-        (error) => {
-          console.log('FAILED...', error.text);
+        () => {
+          setLoadingMessage(false)
+          setErrorMessage(true)
         },
       );
   };
@@ -105,9 +113,19 @@ function Contact() {
             <div className="textarea">
               <textarea ref={messageRef} className="form-control" name='message' placeholder="Enter Your Message Here" required></textarea>
             </div>
+            {loadingMessage &&
+            <div className='successMessage'>
+              <p>Sending....</p>
+            </div>
+            }
             {showSuccessMessage &&
             <div className='successMessage'>
-              <p>Message Send Successfully !!</p>
+              <p>Sent Successfully !!</p>
+            </div>
+            }
+            {errorMessage &&
+            <div className='errorMessage'>
+              <p>Error occurs !!</p>
             </div>
             }
             <div className="submit">

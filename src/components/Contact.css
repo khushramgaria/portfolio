@@ -79,12 +79,19 @@ input[type="email"]:focus{
     transition-property: box-shadow;
 }
 
-.successMessage {
+.successMessage,
+.errorMessage {
     padding-top: 8px;
 }
 
 .successMessage p {
     color: #03b3fe;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.errorMessage p {
+    color: red;
     font-weight: bold;
     font-family: sans-serif;
 }

@@ -21,7 +21,7 @@ const Services = () => {
                   <div className={styles.text}>
                       <h3>FRONTEND DEVELOPER</h3>
                       <p>Proficient in HTML, CSS, JS, &amp; Bootstrap, dedicated to creating visually appealing and user-friendly interfaces for seamless web experiences.</p>
-                      <Link to="#" className={styles.readmore}>Read More..</Link>
+                      {/* <Link to="#" className={styles.readmore}>Read More..</Link> */}
                   </div>
               </div>
           </motion.div>
@@ -33,7 +33,7 @@ const Services = () => {
                   <div className={styles.text}>
                       <h3>BACKEND DEVELOPER</h3>
                       <p>Skilled in JavaScript, jQuery, PHP, and C++, specializing in crafting efficient server-side solutions for seamless web application functionality.</p>
-                      <Link to="#" className={styles.readmore}>Read More..</Link>
+                      {/* <Link to="#" className={styles.readmore}>Read More..</Link> */}
                   </div>
               </div>
           </motion.div>
@@ -45,7 +45,7 @@ const Services = () => {
                   <div className={styles.text}>
                       <h3>DESIGNER</h3>
                       <p>Skilled in logo design and web design, with a keen eye for detail and a passion for crafting visually striking elements that elevate web design aesthetics.</p>
-                        <Link to="#" className={styles.readmore}>Read More..</Link>
+                        {/* <Link to="#" className={styles.readmore}>Read More..</Link> */}
                   </div>
               </div>
           </motion.div>

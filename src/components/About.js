@@ -68,9 +68,9 @@ const About = () => {
                   initial={{ x: "5%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-100%", opacity:0 }} 
                   class="tab-contents active-tab about-skills">
                       <ul>
-                          <li><span style={{fontSize: '16px', marginTop: '3px'}}>HARD SKILLS</span><br /><strong>EXPERIENCED : </strong>HTML, CSS & BootStrap <br /><div style={{marginTop: '5px'}}><strong>BASIC : </strong> JavaScript, JQuery, PHP & C++</div></li>
-                          <li><span style={{fontSize: '16px'}}> SOFT SKILLS</span><br />Patience, Good Listener, Leadership,
-                            Teamwork & Hard-Worker</li>
+                          <li><span style={{fontSize: '16px', marginTop: '3px'}}>HARD SKILLS</span><br /><strong>EXPERIENCED : </strong>HTML, CSS, BootStrap, JavaScript, REACT.JS, Firebase, Github <br /><div style={{marginTop: '5px'}}><strong>BASIC : </strong> Python, PHP & C++</div></li>
+                          <li><span style={{fontSize: '16px'}}> SOFT SKILLS</span><br />Patience, Leadership,
+                            Teamwork & Problem Solver</li>
                       </ul>
                   </motion.div>}
                   {hobbies &&
@@ -87,9 +87,9 @@ const About = () => {
                   initial={{ x: "5%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-200%", opacity:0 }} 
                   class="tab-contents about-education">
                     <ul>
-                        <li><span>PURSUING BACHOLAR OF COMPUTER APPLICATION</span><br />FROM BABA FARID COLLEGE, BATHINDA (2021-2024)</li>
-                        <li><span>SENIOR SECONDARY EDUCATION ( 10TH+2 )</span><br />FROM GOVT. SEN. SEC. SCHOOL, ABOHAR (2020-2021)<br />PERCENTAGE : 86%</li>
-                        <li><span>MATRICULATION EDUCATION ( 10TH)</span><br />FROM DIVINE LIGHT PUBLIC SEN. SEC. SCHOOL, ABOHAR (2018-2019) <br /> PERCENTAGE : 84%</li>
+                        <li><span>PURSUING BACHOLAR OF COMPUTER APPLICATION</span><br />FROM BABA FARID COLLEGE, BATHINDA  <br/>(2021-2024) | CGPA: 7.5</li>
+                        <li><span>SENIOR SECONDARY EDUCATION ( 10TH+2 )</span><br />FROM GOVT. SEN. SEC. SCHOOL, ABOHAR <br />(2020-2021) | CGPA: 8.6</li>
+                        <li><span>MATRICULATION EDUCATION ( 10TH)</span><br />FROM DIVINE LIGHT PUBLIC SEN. SEC. SCHOOL, ABOHAR <br /> (2018-2019) | CGPA: 8.4</li>
                     </ul>
                   </motion.div>}
               </div>

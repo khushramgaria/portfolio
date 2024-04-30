@@ -9,6 +9,7 @@ import project7 from "../img/random-jokes.png"
 import project8 from "../img/cover-webpage.png"
 import project9 from "../img/expense-manager.png"
 import project10 from "../img/data-validation.png"
+import project11 from "../img/Todo-contextAPI.png"
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import './Projects.css'
@@ -21,72 +22,79 @@ Swiper.use([Navigation, Pagination]);
 
 const projects = [
   {
+    id: '11',
+    name: 'ToDo- With ContextAPI',
+    description: 'React.js',
+    img: project11,
+    link: 'https://to-do-with-context-api.vercel.app/'
+  },
+  {
     id: '9',
     name: 'Expense Manager',
-    description: 'It is a Expense Manager website.',
+    description: 'React.js',
     img: project9,
     link: 'https://expense-manager-practice.vercel.app/'
   },
   {
     id: '10',
     name: 'Data Validation',
-    description: 'It is a pratice project.',
+    description: 'React.js',
     img: project10,
     link: 'https://data-validation-practice.vercel.app/'
   },
   {
     id: '1',
     name: 'VCE - Admin Panel',
-    description: 'It is a admin dashboard website.',
+    description: 'HTML, CSS & Bootstrap',
     img: project1,
     link: 'https://vce-admin-panel.vercel.app/'
   },
   {
     id: '2',
     name: 'VCE - Student Panel',
-    description: 'It is a student dashboard website.',
+    description: 'HTML, CSS & Bootstrap',
     img: project2,
     link: 'https://vce-student-panel.vercel.app/'
   },
   {
     id: '3',
     name: 'PetsClub',
-    description: 'It is a pets shop website.',
+    description: 'HTML, CSS, Bootstrap & PHP',
     img: project3,
     link: 'https://petsclubofficial.000webhostapp.com/index.php'
   },
   {
     id: '4',
     name: 'Imperial Spice',
-    description: 'It is a restaurant website.',
+    description: 'HTML & CSS',
     img: project4,
     link: 'https://imperialspice.vercel.app/'
   },
   {
     id: '5',
     name: 'Dashboard',
-    description: 'Its a simple dashboard website.',
+    description: 'HTML, CSS & Bootstrap',
     img: project5,
     link: 'https://student-dashboard-page.vercel.app/'
   },
   {
     id: '6',
     name: 'Password Generator',
-    description: 'It is Password Generator website.',
+    description: 'HTML, CSS & JS',
     img: project6,
     link: 'https://passwordgeneratorpractice.vercel.app/'
   },
   {
     id: '7',
     name: 'Random Jokes',
-    description: 'It is batman random jokes website.',
+    description: 'HTML, CSS & JS',
     img: project7,
     link: 'https://batmanrandomjokes.vercel.app/'
   },
   {
     id: '8',
     name: 'Cover Webpage',
-    description: 'It is my first practice website.',
+    description: 'HTML & CSS',
     img: project8,
     link: 'https://coverpage.vercel.app/'
   },

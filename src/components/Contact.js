@@ -74,21 +74,21 @@ function Contact() {
             <div className="icon"><FaLinkedin /></div>
             <div className="content">
               <h3>Linkedin</h3>
-              <Link to="#" className="links">@khush_ramgaria</Link>
+              <Link to="https://www.linkedin.com/in/khush-ramgaria" className="links">@khush_ramgaria</Link>
             </div>
           </div>
           <div className="info">
             <div className="icon"><FaGithub /></div>
             <div className="content">
               <h3>Github</h3>
-              <Link to="#" className="links">@khushramgaria</Link>
+              <Link to="https://github.com/khushramgaria" className="links">@khushramgaria</Link>
             </div>
           </div>
           <div className="info">
             <div className="icon"><FaInstagram /></div>
             <div className="content">
               <h3>Instagram</h3>
-              <Link to="#" className="links">@khush_ramgaria_</Link>
+              <Link to="https://www.instagram.com/khush_ramgaria_" className="links">@khush_ramgaria_</Link>
             </div>
           </div>
         </motion.div>

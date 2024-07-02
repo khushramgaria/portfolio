@@ -10,6 +10,10 @@ import project8 from "../img/cover-webpage.png"
 import project9 from "../img/expense-manager.png"
 import project10 from "../img/data-validation.png"
 import project11 from "../img/Todo-contextAPI.png"
+import project12 from "../img/bfc.png"
+import project13 from "../img/seating-plan.png"
+import project14 from "../img/rms.png"
+import project15 from "../img/twitter-clone.png"
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import './Projects.css'
@@ -21,6 +25,34 @@ import 'swiper/css/pagination';
 Swiper.use([Navigation, Pagination]);
 
 const projects = [
+  {
+    id: '15',
+    name: 'Twitter Clone',
+    description: 'React.js, Express.js, MongoDB, Node.js, Tailwind CSS & Postman',
+    img: project15,
+    link: 'https://twitter-clone-with-mern.vercel.app/'
+  },
+  {
+    id: '14',
+    name: 'Result Management System',
+    description: 'React.js, Express.js, MongoDB, Node.js, Tailwind CSS & GitHub',
+    img: project14,
+    link: 'https://result-ms.vercel.app/'
+  },
+  {
+    id: '13',
+    name: 'Seating Plan Automation',
+    description: 'React.js, CSS, Firebase & AI',
+    img: project13,
+    link: 'https://sitting-plan-automation.vercel.app/'
+  },
+  {
+    id: '12',
+    name: 'Baba Farid College',
+    description: 'HTML, CSS, JavaScript, BootStrap & Firebase',
+    img: project12,
+    link: 'https://bfc-project.vercel.app/bfc-index.html'
+  },
   {
     id: '11',
     name: 'ToDo- With ContextAPI',

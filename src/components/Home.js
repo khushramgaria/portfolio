@@ -107,7 +107,7 @@ const Home = () => {
                     <h5>A Web Developer <span>From Punjab, India.</span></h5>
                     <p>I'm creative web developer based on Punjab, and I'm very passionate and dedicated to my work.</p>
                     <button class="button">
-                      <Link className="text" to="https://drive.google.com/file/d/1nSU1kSiocOcl59bgU2E2ywPTbi8BXvSv/view?usp=sharing" target="_blank">
+                      <Link className="text" to="https://drive.google.com/file/d/1NNeAwm28NmlsH5Ca-ppoIkdefD0dDujx/view?usp=sharing" target="_blank">
                         RESUME
                         <FaDownload className="icon"/>
                       </Link>

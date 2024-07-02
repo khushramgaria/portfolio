@@ -52,6 +52,48 @@ function Skills() {
             <div className="swiper-wrapper">
                 <article className="card__article swiper-slide" delay={0.2}>
                   <div class="co">
+                    <div class="circular-progress cp-8">
+                      <span class="progress-value"></span>
+                    </div>
+                  </div>
+                </article>
+                <article className="card__article swiper-slide" delay={0.2}>
+                  <div class="co">
+                    <div class="circular-progress cp-9">
+                      <span class="progress-value"></span>
+                    </div>
+                  </div>
+                </article>
+                <article className="card__article swiper-slide" delay={0.2}>
+                  <div class="co">
+                    <div class="circular-progress cp-10">
+                      <span class="progress-value"></span>
+                    </div>
+                  </div>
+                </article>
+                <article className="card__article swiper-slide" delay={0.2}>
+                  <div class="co">
+                    <div class="circular-progress cp-11">
+                      <span class="progress-value"></span>
+                    </div>
+                  </div>
+                </article>
+                <article className="card__article swiper-slide" delay={0.2}>
+                  <div class="co">
+                    <div class="circular-progress cp-12">
+                      <span class="progress-value"></span>
+                    </div>
+                  </div>
+                </article>
+                <article className="card__article swiper-slide" delay={0.2}>
+                  <div class="co">
+                    <div class="circular-progress cp-13">
+                      <span class="progress-value"></span>
+                    </div>
+                  </div>
+                </article>
+                <article className="card__article swiper-slide" delay={0.2}>
+                  <div class="co">
                     <div class="circular-progress cp-1">
                       <span class="progress-value"></span>
                     </div>
@@ -85,16 +127,30 @@ function Skills() {
                     </div>
                   </div>
                 </article>
-                <article className="card__article swiper-slide">
+                {/* <article className="card__article swiper-slide">
                   <div class="co">
                     <div class="circular-progress cp-5">
+                      <span class="progress-value"></span>
+                    </div>
+                  </div>
+                </article> */}
+                <article className="card__article swiper-slide">
+                  <div class="co">
+                    <div class="circular-progress cp-6">
                       <span class="progress-value"></span>
                     </div>
                   </div>
                 </article>
                 <article className="card__article swiper-slide">
                   <div class="co">
-                    <div class="circular-progress cp-6">
+                    <div class="circular-progress cp-14">
+                      <span class="progress-value"></span>
+                    </div>
+                  </div>
+                </article>
+                <article className="card__article swiper-slide">
+                  <div class="co">
+                    <div class="circular-progress cp-15">
                       <span class="progress-value"></span>
                     </div>
                   </div>

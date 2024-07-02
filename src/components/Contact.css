@@ -15,7 +15,7 @@
 }
 
 .contact-details .info .icon {
-    font-size: 26px;
+    font-size: 20px;
     color: #03b3fe;
     margin: 0 10px;
     position: relative;
@@ -26,6 +26,7 @@
     color: #03b3fe;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .contact-details .info .content .links {

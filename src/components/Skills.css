@@ -97,19 +97,43 @@
     background: conic-gradient(#254995 320deg, #ededed 0deg);
 }
 #skills .cp-3 {
-    background: conic-gradient(#e9ca32 200deg, #ededed 0deg);
+    background: conic-gradient(#e9ca32 230deg, #ededed 0deg);
 }
 #skills .cp-4 {
     background: conic-gradient(#5b4283 275deg, #ededed 0deg); 
 }
-#skills .cp-5 {
+/* #skills .cp-5 {
     background: conic-gradient(#6b7eb8 110deg, #ededed 0deg); 
-}
+} */
 #skills .cp-6 {
     background: conic-gradient(#004483 180deg, #ededed 0deg);
 }
 #skills .cp-7 {
-  background: conic-gradient(#05d6f9 130deg, #ededed 0deg);
+  background: conic-gradient(#ffcb2d 180deg, #ededed 0deg);
+}
+#skills .cp-8 {
+  background: conic-gradient(#05d6f9 230deg, #ededed 0deg);
+}
+#skills .cp-9 {
+  background: conic-gradient(#41a04d 150deg, #ededed 0deg);
+}
+#skills .cp-10 {
+  background: conic-gradient(#ebff00 100deg, #ededed 0deg);
+}
+#skills .cp-11 {
+  background: conic-gradient(#689f63 120deg, #ededed 0deg);
+}
+#skills .cp-12 {
+  background: conic-gradient(#48a9b9 270deg, #ededed 0deg);
+}
+#skills .cp-13 {
+  background: conic-gradient(#f06c3b 140deg, #ededed 0deg);
+}
+#skills .cp-14 {
+  background: conic-gradient(#5facf2 350deg, #ededed 0deg);
+}
+#skills .cp-15 {
+  background: conic-gradient(#d73f26 160deg, #ededed 0deg);
 }
 
 #skills .cp-1::before {
@@ -128,16 +152,48 @@
     background: url(../img/bootstrap.jpeg);
     background-size: cover;
 }
-#skills .cp-5::before {
+/* #skills .cp-5::before {
     background: url(../img/php.jpg);
     background-size: cover;
-}
+} */
 #skills .cp-6::before {
     background: url(../img/c++.jpg);
     background-size: cover;
 }
 #skills .cp-7::before {
+  background: url(../img/firebase.png);
+  background-size: cover;
+}
+#skills .cp-8::before {
   background: url(../img/react.png);
+  background-size: cover;
+}
+#skills .cp-9::before {
+  background: url(../img/mongodb.jpg);
+  background-size: cover;
+}
+#skills .cp-10::before {
+  background: url(../img/express-js.jpg);
+  background-size: cover;
+}
+#skills .cp-11::before {
+  background: url(../img/node-js.png);
+  background-size: cover;
+}
+#skills .cp-12::before {
+  background: url(../img/tailwind-02.jpeg.jpg);
+  background-size: cover;
+}
+#skills .cp-13::before {
+  background: url(../img/postman.jpg);
+  background-size: cover;
+}
+#skills .cp-14::before {
+  background: url(../img/vs\ code.jpg);
+  background-size: cover;
+}
+#skills .cp-15::before {
+  background: url(../img/git.jpg);
   background-size: cover;
 }
     
